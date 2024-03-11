@@ -20,7 +20,7 @@
 
         
 
-        <table id="primera-tabla" >
+        <table id="tabla-habilidades" >
             <tr>
                 <td>Habilidad</td>
                 <td>Nivel</td>
@@ -56,8 +56,19 @@
 
             
         </table>
-        <input type="text" name="feedback" id="feedback" placeholder="Qué te pareció el blog?">
-        <label for="feedback ">Encuesta</label>
+        <input type="text" name="feedback" id="feedback" placeholder="El texto va por acá ">
+        <label for="feedback ">Ingresa texto y ve como se incluye en la página!</label>
+
+        <button onclick="agregarTexto()">Agregar texto</button>
+
+        <script>
+            function agregarTexto() {
+                const texto = document.getElementById("feedback").value;
+                var x = document.createElement("p");
+                x.textContent=texto
+                document.body.appendChild(x)
+            }
+        </script>
     
 
     
