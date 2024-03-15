@@ -6,13 +6,17 @@ table, tr, td{
 
 
 body {
-    background-color: mediumaquamarine;
+    background-color: rgb(2,48,32);
 }
 
 #feedback {
     margin-top: 5%;
+    text-align: center;
 }
 
+#funcion {
+    text-align: center;
+}
 
 #titulo-lab {
     font-family: Georgia;
@@ -21,4 +25,18 @@ body {
 #nombre {
     color: beige;
     font-family: Verdana;
+    text-align: center;
+}
+
+.banner{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(116,161,46);
+    border-radius: 10%;
+}
+
+.contenido{
+   background-color: rgb(9,121,105);
+   border-radius: 5%;
 }

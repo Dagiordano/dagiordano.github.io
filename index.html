@@ -6,7 +6,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 id="titulo-lab">Pagina personal Web Technologies</h1>
+
+    <div class="banner">
+        <h1 id="titulo-lab">Pagina personal Web Technologies</h1>
+    </div>
+    
+
+    <div class="contenido">
     <h3 id="nombre">Nombre: Diego Giordano</h3>
 
     
@@ -56,15 +62,17 @@
 
             
         </table>
+        <div id="funcion">
         <input type="text" name="feedback" id="feedback" placeholder="El texto va por acá ">
         <label for="feedback ">Ingresa texto y ve como se incluye en la página!</label>
 
         <button onclick="agregarTexto()">Agregar texto</button>
-
+        </div>
+        </div>
         <script>
             function agregarTexto() {
                 const texto = document.getElementById("feedback").value;
-                var x = document.createElement("p");
+                var x = document.createElement("h2");
                 x.textContent=texto
                 document.body.appendChild(x)
             }
