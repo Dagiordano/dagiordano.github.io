@@ -1,8 +1,24 @@
 table, tr, td{
     border: 2px solid black;
+    background-color: aliceblue;
 }
 
 
+
+body {
+    background-color: mediumaquamarine;
+}
+
 #feedback {
     margin-top: 5%;
+}
+
+
+#titulo-lab {
+    font-family: Georgia;
+}
+
+#nombre {
+    color: beige;
+    font-family: Verdana;
 }
