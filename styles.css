@@ -1,42 +1,19 @@
-table, tr, td{
-    border: 2px solid black;
-    background-color: aliceblue;
-}
-
-
-
 body {
-    background-color: rgb(2,48,32);
+    background-color: rgb(64, 73, 90);
 }
 
-#feedback {
-    margin-top: 5%;
+#header {
+    color: antiquewhite;
+}
+
+header {
+    background-color: rgb(35, 40, 63);
     text-align: center;
 }
 
-#funcion {
-    text-align: center;
+table, tr, td {
+    border: 2px solid rgb(255, 255, 255);
+    color: aliceblue;
+
 }
 
-#titulo-lab {
-    font-family: Georgia;
-}
-
-#nombre {
-    color: beige;
-    font-family: Verdana;
-    text-align: center;
-}
-
-.banner{
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    background-color: rgb(116,161,46);
-    border-radius: 10%;
-}
-
-.contenido{
-   background-color: rgb(9,121,105);
-   border-radius: 5%;
-}
